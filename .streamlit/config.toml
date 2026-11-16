@@ -1,0 +1,10 @@
+# One accent per mode. Defining both lets the app follow the viewer's light/dark setting,
+# which the charts read through st.context.theme.
+[theme.light]
+primaryColor = "#2a78d6"
+
+[theme.dark]
+primaryColor = "#3987e5"
+
+[browser]
+gatherUsageStats = false
